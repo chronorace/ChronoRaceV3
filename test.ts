@@ -3,8 +3,8 @@
  */
 module cr.test{
     class zen{
-        constructor(name:string){
-
+        constructor(private name?:string){
+            if (!name) this.name="cle";
         }
     }
 }
