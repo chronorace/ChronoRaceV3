@@ -5,6 +5,7 @@ module cr.test{
     class zen{
         constructor(private name?:string){
             if (!name) this.name="cle";
+	alert('cool?');
         }
     }
 }
