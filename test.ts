@@ -6,6 +6,7 @@ module cr.test{
         constructor(private name?:string){
             if (!name) this.name="cle";
 	alert('cool... c est la merde?');
+            // test conflit depuis notepad
         }
     }
 }
